@@ -33,7 +33,7 @@ Mais relatórios sendo adicionados semanalmente.
 ## Contato & Redes
 - LinkedIn: [linkedin.com/in/douglascshun](https://www.linkedin.com/in/douglascshun)
 - TryHackMe: [tryhackme.com/p/D.r4bbi7](https://tryhackme.com/p/D.r4bbi7)
-- E-mail profissional: douglascshun@gmail.com
+- Contato: douglascshun@gmail.com
 
 Se esse portfólio te ajudou ou gostou do conteúdo, uma ⭐ no repositório faz toda diferença!
 
