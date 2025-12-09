@@ -1,4 +1,4 @@
-# 🛡️ Relatório de Teste de Invasão: Máquina "Meow" 🐱 (HackTheBox)
+# 🛡️ Relatório de Teste de Invasão: Máquina "Meow" (HackTheBox)
 
 **Classificação**: Público (Portfólio)  
 **Data do Teste**: 07 de Dezembro de 2025  
