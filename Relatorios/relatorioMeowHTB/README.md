@@ -24,16 +24,6 @@ A partir desse ponto de entrada inicial foi possível:
 |------|----------------------------------------------------|------------|-----------------------------------|-----------------------------------------|
 | M-01 | Exposição do Serviço Telnet Permitindo Login Root Direto | Crítica    | Misconfiguration (OWASP A05:2021) | Acesso imediato como root (UID 0)       |
 
-### 6. Caminho Completo de Exploração (Attack Path)
-
-```mermaid
-graph TD
-    A[Início do teste<br/>ping 10.129.1.17] --> B[Nmap Scan<br/>porta 23/tcp Telnet aberta]
-    B --> C[Telnet 10.129.1.17<br/>Login como root sem senha]
-    C --> D[Shell root obtido<br/>UID 0]
-    D --> E[cat /root/flag.txt<br/>Flag capturada]
-
-```
 ## 🔗 Referência
 
 O relatório completo (incluindo metodologia, *timeline* visual e *proofs* detalhados) está disponível no arquivo:
