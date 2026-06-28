@@ -1,7 +1,7 @@
 <!-- ══════════════════════ IDIOMAS / LANGUAGES ══════════════════════ -->
 <div align="center">
-<a href="README.md"><img src="https://img.shields.io/badge/Português-1987F0?style=for-the-badge" alt="Português"/></a>
-<a href="README.en.md"><img src="https://img.shields.io/badge/English-555555?style=for-the-badge" alt="English"/></a>
+<a href="README.md"><img src="https://img.shields.io/badge/Português-555555?style=for-the-badge" alt="Português"/></a>
+<a href="README.en.md"><img src="https://img.shields.io/badge/English-1987F0?style=for-the-badge" alt="English"/></a>
 <a href="README.es.md"><img src="https://img.shields.io/badge/Español-555555?style=for-the-badge" alt="Español"/></a>
 </div>
 
@@ -21,12 +21,12 @@
 <br/>
 
 <h1 align="center">Cybersec Portfolio</h1>
-<p align="center"><em>Portfólio prático de pentests em ambientes legais e autorizados (TryHackMe · HackTheBox · labs próprios)</em></p>
+<p align="center"><em>Hands-on pentesting portfolio in legal and authorized environments (TryHackMe · HackTheBox · personal labs)</em></p>
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Pentest-RabbitSec-1987F0?style=for-the-badge&logo=hackthebox&logoColor=white" alt="pentest"/>
-<img src="https://img.shields.io/badge/Metodologia-OSSTMM_%7C_OWASP-000000?style=for-the-badge" alt="metodologia"/>
+<img src="https://img.shields.io/badge/Methodology-OSSTMM_%7C_OWASP-000000?style=for-the-badge" alt="metodologia"/>
 <br/>
 <img src="https://img.shields.io/github/stars/douglascshun/cybersec-portfolio?style=flat-square&color=1987F0" alt="stars"/>
 <img src="https://img.shields.io/github/forks/douglascshun/cybersec-portfolio?style=flat-square&color=1987F0" alt="forks"/>
@@ -38,19 +38,19 @@
 <!-- ══════════════════════════ NAVEGAÇÃO ══════════════════════════ -->
 <div align="center">
 
-<a href="#relatorios"><img src="https://img.shields.io/badge/▸_RELATÓRIOS-1987F0?style=for-the-badge" alt="relatorios"/></a>
+<a href="#relatorios"><img src="https://img.shields.io/badge/▸_REPORTS-1987F0?style=for-the-badge" alt="relatorios"/></a>
 <a href="#skills"><img src="https://img.shields.io/badge/▸_SKILLS-000000?style=for-the-badge" alt="skills"/></a>
 <a href="#roadmap"><img src="https://img.shields.io/badge/▸_ROADMAP-1987F0?style=for-the-badge" alt="roadmap"/></a>
-<a href="#contato"><img src="https://img.shields.io/badge/▸_CONTATO-000000?style=for-the-badge" alt="contato"/></a>
+<a href="#contato"><img src="https://img.shields.io/badge/▸_CONTACT-000000?style=for-the-badge" alt="contato"/></a>
 
 </div>
 
 <br/>
 
 <!-- ══════════════════════════ SOBRE ══════════════════════════ -->
-## Sobre
+## About
 
-Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderlick** — Analista de Cibersegurança & Ethical Hacker, com foco em **Pentesting, Defesa de Redes e Análise de Ameaças**. Todos os relatórios deste repositório foram produzidos em ambientes **legais e autorizados**, com documentação profissional (PoC + recomendações de hardening).
+Welcome to my hands-on cybersecurity portfolio. I'm **Douglas Cshunderlick** — Cybersecurity Analyst & Ethical Hacker, focused on **Pentesting, Network Defense and Threat Analysis**. All reports in this repository were produced in **legal and authorized** environments, with professional documentation (PoC + hardening recommendations).
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
@@ -58,14 +58,14 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 
 <!-- ══════════════════════════ RELATÓRIOS ══════════════════════════ -->
 <a id="relatorios"></a>
-## Relatórios de Testes de Invasão
+## Penetration Testing Reports
 
-| Máquina | Plataforma | Dificuldade | Tempo até Root | Principais Vulnerabilidades | Status | Link |
+| Machine | Platform | Difficulty | Time to Root | Main Vulnerabilities | Status | Link |
 |---------|------------|-------------|----------------|----------------------------|--------|------|
-| **Poster** | TryHackMe | Média | ~1h40 | Credenciais padrão PostgreSQL, `CVE-2019-9193`, sudo NOPASSWD | ✅ Concluído | [Ver relatório](/Relatorios/relatorioPosterTHM) |
-| **Meow** | HackTheBox | Fácil | ~45min | Telnet root login · Misconfig Alpine · bypass por root direto | ✅ Concluído | [Ver relatório](/Relatorios/relatorioMeowHTB) |
+| **Poster** | TryHackMe | Medium | ~1h40 | Default PostgreSQL credentials, `CVE-2019-9193`, sudo NOPASSWD | ✅ Done | [View report](/Relatorios/relatorioPosterTHM) |
+| **Meow** | HackTheBox | Easy | ~45min | Telnet root login · Alpine misconfig · direct root bypass | ✅ Done | [View report](/Relatorios/relatorioMeowHTB) |
 
-> Novos relatórios são adicionados semanalmente.
+> New reports are added weekly.
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
@@ -73,7 +73,7 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 
 <!-- ══════════════════════════ SKILLS ══════════════════════════ -->
 <a id="skills"></a>
-## Skills Demonstradas
+## Demonstrated Skills
 
 <div align="center">
 
@@ -86,12 +86,12 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 
 </div>
 
-- **Reconhecimento e enumeração** — Nmap, Gobuster, ffuf
-- **Exploração de serviços expostos** — PostgreSQL, SMB, HTTP
+- **Reconnaissance and enumeration** — Nmap, Gobuster, ffuf
+- **Exploitation of exposed services** — PostgreSQL, SMB, HTTP
 - **Credential stuffing & hard-coded credentials**
-- **Privilege escalation Linux** — sudoers, capabilities, SUID
-- **Exploração de CVEs conhecidas**
-- **Documentação profissional de pentest** — PoC e relatório executivo
+- **Linux privilege escalation** — sudoers, capabilities, SUID
+- **Exploitation of known CVEs**
+- **Professional pentest documentation** — PoC and executive report
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
@@ -99,12 +99,12 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 
 <!-- ══════════════════════════ ROADMAP ══════════════════════════ -->
 <a id="roadmap"></a>
-## Em Breve
+## Coming Soon
 
-- [ ] Relatórios de **Web Application Pentest** (OWASP Top 10)
+- [ ] **Web Application Pentest** reports (OWASP Top 10)
 - [ ] **Active Directory** initial compromise
 - [ ] **Cloud Security** (AWS/Azure misconfigurations)
-- [ ] **Automação** com Python/Bash
+- [ ] **Automation** with Python/Bash
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
@@ -112,18 +112,18 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 
 <!-- ══════════════════════════ CONTATO ══════════════════════════ -->
 <a id="contato"></a>
-## Contato & Redes
+## Contact & Social
 
 <div align="center">
 
-<a href="https://github.com/douglascshun"><img src="https://img.shields.io/badge/Perfil_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
+<a href="https://github.com/douglascshun"><img src="https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
 <a href="https://www.linkedin.com/in/douglas-cshunderlick/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
 <a href="https://tryhackme.com/p/D.r4bbi7"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="thm"/></a>
 <a href="mailto:douglascshun@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 
 <br/><br/>
 
-<em>Se este portfólio te ajudou ou você gostou do conteúdo, uma ⭐ no repositório faz toda a diferença. Obrigado pela visita!</em>
+<em>If this portfolio helped you or you enjoyed the content, a ⭐ on the repository makes all the difference. Thanks for visiting!</em>
 
 </div>
 
