@@ -60,7 +60,7 @@
 <a id="sobre"></a>
 ## Sobre este portfólio
 
-Sou Douglas Cshunderlick, analista de cibersegurança com foco em pentest, defesa de redes e análise de ameaças. Cada pasta deste repositório documenta um comprometimento real, executado em laboratório autorizado (TryHackMe, HackTheBox e ambientes próprios), com a mesma estrutura que eu entregaria a um cliente: prova de conceito, caminho de ataque passo a passo e recomendações priorizadas de correção.
+Sou Douglas Cshunderlick, engenheiro de software com foco em Segurança Ofensiva / Red Team e AppSec: pentest, defesa de redes e análise de ameaças. Cada pasta deste repositório documenta um comprometimento real, executado em laboratório autorizado (TryHackMe, HackTheBox e ambientes próprios), com a mesma estrutura que eu entregaria a um cliente: prova de conceito, caminho de ataque passo a passo e recomendações priorizadas de correção.
 
 A ideia não é só "capturar a flag". É mostrar como penso uma invasão de ponta a ponta e, principalmente, como traduzo o achado técnico em risco de negócio e em um plano de remediação que a equipe consegue executar.
 
@@ -236,9 +236,9 @@ Clique em cada caso para abrir o resumo do ataque sem sair desta página.
 <div align="center">
 
 <a href="https://github.com/douglascshun"><img src="https://img.shields.io/badge/Perfil_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
-<a href="https://www.linkedin.com/in/douglas-cshunderlick/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+<a href="https://www.linkedin.com/in/cshunderlick/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
 <a href="https://tryhackme.com/p/D.r4bbi7"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="thm"/></a>
-<a href="mailto:douglascshun@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+<a href="mailto:douglascshunderlick@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 
 <br/><br/>
 
