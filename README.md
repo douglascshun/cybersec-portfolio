@@ -50,7 +50,7 @@
 <!-- ══════════════════════════ SOBRE ══════════════════════════ -->
 ## Sobre
 
-Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderlick** — Analista de Cibersegurança & Ethical Hacker, com foco em **Pentesting, Defesa de Redes e Análise de Ameaças**. Todos os relatórios deste repositório foram produzidos em ambientes **legais e autorizados**, com documentação profissional (PoC + recomendações de hardening).
+Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderlick**, Engenheiro de Software com foco em Segurança Ofensiva / Red Team e AppSec, com foco em **Pentesting, Defesa de Redes e Análise de Ameaças**. Todos os relatórios deste repositório foram produzidos em ambientes **legais e autorizados**, com documentação profissional (PoC + recomendações de hardening).
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
@@ -86,12 +86,12 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 
 </div>
 
-- **Reconhecimento e enumeração** — Nmap, Gobuster, ffuf
-- **Exploração de serviços expostos** — PostgreSQL, SMB, HTTP
+- **Reconhecimento e enumeração**: Nmap, Gobuster, ffuf
+- **Exploração de serviços expostos**: PostgreSQL, SMB, HTTP
 - **Credential stuffing & hard-coded credentials**
-- **Privilege escalation Linux** — sudoers, capabilities, SUID
+- **Privilege escalation Linux**: sudoers, capabilities, SUID
 - **Exploração de CVEs conhecidas**
-- **Documentação profissional de pentest** — PoC e relatório executivo
+- **Documentação profissional de pentest**: PoC e relatório executivo
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
@@ -117,9 +117,9 @@ Bem-vindo ao meu portfólio prático de cibersegurança. Sou **Douglas Cshunderl
 <div align="center">
 
 <a href="https://github.com/douglascshun"><img src="https://img.shields.io/badge/Perfil_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github"/></a>
-<a href="https://www.linkedin.com/in/douglas-cshunderlick/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+<a href="https://www.linkedin.com/in/cshunderlick/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
 <a href="https://tryhackme.com/p/D.r4bbi7"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="thm"/></a>
-<a href="mailto:douglascshun@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+<a href="mailto:douglascshunderlick@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 
 <br/><br/>
 
