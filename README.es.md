@@ -49,6 +49,7 @@
 <a href="#metodologia"><img src="https://img.shields.io/badge/METODOLOG%C3%8DA-000000?style=for-the-badge" alt="metodologia"/></a>
 <a href="#relatorios"><img src="https://img.shields.io/badge/INFORMES-1987F0?style=for-the-badge" alt="relatorios"/></a>
 <a href="#skills"><img src="https://img.shields.io/badge/SKILLS-000000?style=for-the-badge" alt="skills"/></a>
+<a href="#fundamentos"><img src="https://img.shields.io/badge/FUNDAMENTOS-1987F0?style=for-the-badge" alt="fundamentos"/></a>
 <a href="#roadmap"><img src="https://img.shields.io/badge/ROADMAP-1987F0?style=for-the-badge" alt="roadmap"/></a>
 <a href="#contato"><img src="https://img.shields.io/badge/CONTACTO-000000?style=for-the-badge" alt="contato"/></a>
 
@@ -111,7 +112,11 @@ flowchart LR
 
 | Máquina | Plataforma | Dificultad | Tiempo hasta root | Vector principal | Estado |
 |:--|:--:|:--:|:--:|:--|:--:|
+| **Internal** | TryHackMe | Difícil | Encadenado | WordPress débil → Jenkins interno → credencial de root en disco | Completado |
 | **Poster** | TryHackMe | Media | ~1h40 | PostgreSQL con credencial por defecto + `CVE-2019-9193` | Completado |
+| **Mr Robot** | TryHackMe | Media | Encadenado | WordPress + wordlist filtrada → SUID `nmap` | Completado |
+| **Kenobi** | TryHackMe | Media | Encadenado | Samba anónimo + ProFTPD `CVE-2015-3306` → SUID | Completado |
+| **Basic Pentesting** | TryHackMe | Fácil | Rápido | Contraseña SSH débil → SUID `find` | Completado |
 | **Meow** | HackTheBox | Fácil | ~45min | Telnet con login de root directo (Alpine mal configurado) | Completado |
 
 </div>
@@ -165,6 +170,31 @@ Haz clic en cada caso para abrir el resumen del ataque sin salir de esta página
 <br/>
 
 <div align="center"><sub>Aquí se agregan nuevos informes a medida que se completan.</sub></div>
+
+<div align="center">
+  <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
+</div>
+
+<!-- ══════════════════════════ FUNDAMENTOS ══════════════════════════ -->
+<a id="fundamentos"></a>
+## Fundamentos y notas de estudio
+
+La base técnica detrás de los informes: recon, scripting ofensivo, triaje posterior al acceso y seguridad industrial. Notas del inicio de mi documentación, conservadas como registro y referencia rápida (las notas están en portugués).
+
+<div align="center">
+
+| Nota | Tema |
+|:--|:--|
+| [Scripting ofensivo en Python](/Fundamentos/scripting-python.md) | Sockets, requests, threading, ruptura de hash |
+| [Recon con DNS y WHOIS](/Fundamentos/recon-dns-whois.md) | `dig`, `whois`, `host`, DNS inverso |
+| [Búsqueda y triaje en Linux](/Fundamentos/busca-triagem-linux.md) | `grep`, `find`, `awk`, binarios SUID |
+| [Seguridad de ICS/SCADA](/Fundamentos/ics-scada.md) | Modbus, SNMP, IEC 61850, segmentación |
+
+</div>
+
+<div align="center">
+<a href="/Fundamentos"><img src="https://img.shields.io/badge/Abrir_Fundamentos-000000?style=for-the-badge&logo=github&logoColor=white" alt="fundamentos"/></a>
+</div>
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>

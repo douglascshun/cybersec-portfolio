@@ -49,6 +49,7 @@
 <a href="#metodologia"><img src="https://img.shields.io/badge/METHODOLOGY-000000?style=for-the-badge" alt="metodologia"/></a>
 <a href="#relatorios"><img src="https://img.shields.io/badge/REPORTS-1987F0?style=for-the-badge" alt="relatorios"/></a>
 <a href="#skills"><img src="https://img.shields.io/badge/SKILLS-000000?style=for-the-badge" alt="skills"/></a>
+<a href="#fundamentos"><img src="https://img.shields.io/badge/FUNDAMENTALS-1987F0?style=for-the-badge" alt="fundamentals"/></a>
 <a href="#roadmap"><img src="https://img.shields.io/badge/ROADMAP-1987F0?style=for-the-badge" alt="roadmap"/></a>
 <a href="#contato"><img src="https://img.shields.io/badge/CONTACT-000000?style=for-the-badge" alt="contato"/></a>
 
@@ -111,7 +112,11 @@ flowchart LR
 
 | Machine | Platform | Difficulty | Time to root | Main vector | Status |
 |:--|:--:|:--:|:--:|:--|:--:|
+| **Internal** | TryHackMe | Hard | Chained | Weak WordPress → internal Jenkins → root credential on disk | Completed |
 | **Poster** | TryHackMe | Medium | ~1h40 | PostgreSQL with default credentials + `CVE-2019-9193` | Completed |
+| **Mr Robot** | TryHackMe | Medium | Chained | WordPress + leaked wordlist → SUID `nmap` | Completed |
+| **Kenobi** | TryHackMe | Medium | Chained | Anonymous Samba + ProFTPD `CVE-2015-3306` → SUID | Completed |
+| **Basic Pentesting** | TryHackMe | Easy | Fast | Weak SSH password → SUID `find` | Completed |
 | **Meow** | HackTheBox | Easy | ~45min | Telnet with direct root login (misconfigured Alpine) | Completed |
 
 </div>
@@ -165,6 +170,31 @@ Click each case to open the attack summary without leaving this page.
 <br/>
 
 <div align="center"><sub>New reports are added here as they are completed.</sub></div>
+
+<div align="center">
+  <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
+</div>
+
+<!-- ══════════════════════════ FUNDAMENTALS ══════════════════════════ -->
+<a id="fundamentos"></a>
+## Fundamentals and study notes
+
+The technical base behind the reports: recon, offensive scripting, post-foothold triage and industrial security. Early notes from when I started documenting, kept as a trail and quick reference (notes are in Portuguese).
+
+<div align="center">
+
+| Note | Topic |
+|:--|:--|
+| [Offensive scripting in Python](/Fundamentos/scripting-python.md) | Sockets, requests, threading, hash cracking |
+| [Recon with DNS and WHOIS](/Fundamentos/recon-dns-whois.md) | `dig`, `whois`, `host`, reverse DNS |
+| [Search and triage on Linux](/Fundamentos/busca-triagem-linux.md) | `grep`, `find`, `awk`, SUID binaries |
+| [ICS/SCADA security](/Fundamentos/ics-scada.md) | Modbus, SNMP, IEC 61850, segmentation |
+
+</div>
+
+<div align="center">
+<a href="/Fundamentos"><img src="https://img.shields.io/badge/Open_Fundamentals-000000?style=for-the-badge&logo=github&logoColor=white" alt="fundamentals"/></a>
+</div>
 
 <div align="center">
   <img src="https://64.media.tumblr.com/f444263be6597f8981d2b9cf3d0c7408/f74decdc69e61f0a-9a/s400x600/a157756e4c56be0e5e51a9e4c79ba781a451e94a.gifv" width="100%" height="2px" alt="divider"/>
